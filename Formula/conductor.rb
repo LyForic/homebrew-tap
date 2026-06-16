@@ -7,20 +7,20 @@ class Conductor < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/LyForic/conductor/releases/download/v0.1.1/conductor-darwin-arm64.tar.gz"
-      sha256 "cc8acdfdab4531d390ea10194d43449ed5fd2fd5efa6daa7bf4933c0185e7b0c"
+      sha256 "c0e0f1c52462dc02a7946416e9ab9ba82140c8e42d95ed2cef6b3003012d8b39"
     else
       url "https://github.com/LyForic/conductor/releases/download/v0.1.1/conductor-darwin-amd64.tar.gz"
-      sha256 "6c6676aef3466ad57d5a2615c485e992eb2068ee40d75492800656d822ad1854"
+      sha256 "eef7a900b4ae45725d4c2e480dc9a76135fd0e0886d30f9ee94e0d5325b608cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/LyForic/conductor/releases/download/v0.1.1/conductor-linux-arm64.tar.gz"
-      sha256 "6e6324487e0684a4e8ed66b110cded516b6ccff3e135ac2385cdf8812f6edbf8"
+      sha256 "3d759ac76e165c8f669aab5bcbf901e1303a05c565f709492525ec163248bc38"
     else
       url "https://github.com/LyForic/conductor/releases/download/v0.1.1/conductor-linux-amd64.tar.gz"
-      sha256 "f23dfb6f9c441fe4033c4d132671937e75587cfcda72460e44392c9087850090"
+      sha256 "c67f34a0395538d30d66be32d8a2c97e52dff2a12df9540337347cd1dbb56efc"
     end
   end
 
